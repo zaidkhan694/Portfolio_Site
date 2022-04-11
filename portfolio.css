@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Lora&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  width: 10vw;
+  height: 100vh;
+  background-color: rgb(207, 202, 202);
+  transition: transform 0.3s ease-in ;
+  position: absolute;
+}
+.main {
+  width: 90vw;
+}
+.portfolio {
+  display: flex;
+}
+.sidebar ul {
+  text-align: justify;
+  margin: 15px 10px;
+}
+.sidebar ul li {
+  margin: 3.5em 1em;
+  list-style: none;
+}
+.sidebar ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size:1em;
+}
+.sidebar ul li a :hover
+{
+  color: white;
+}
+.sidebarGo
+    {
+      transform:translate(-160px , 0px);
+    }
+.infoContainer {
+  height: 50vh;
+  width: 70vw;
+  margin: 144px auto;
+  margin-top: 135px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.devPic img {
+  width: 211px;
+}
+.salutation {
+  font-size: 3.2em;
+  font-family: "Courier New", Courier, monospace;
+  
+}
+.name {
+  font-size: 3.2em;
+  font-weight: 900;
+  font-family: "Hubballi", cursive;
+  margin: 12px 0;
+  
+}
+.about {
+  font-size: 2.5em;
+  font-family: "Hubballi", cursive;
+  margin: 12px 0;
+
+}
+.detail {
+  margin: 10px 0;
+  font-size: 1.5em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  
+}
+.btn {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border-style: none;
+  margin: 10px 2px;
+  color: white;
+  background-color: cornflowerblue;
+  font-family: sans-serif;
+  border: 2px solid white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: white;
+  color: cornflowerblue;
+  border: 2px solid cornflowerblue;
+}
+.devInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contactForm {
+  width: 70vw;
+  height: 50vh;
+  margin: 50px 30px;
+}
+.contant {
+  margin: 015px;
+}
+.contant h3 {
+  font-size: 30px;
+  font-family: "Hubballi", cursive;
+}
+.contant h5 {
+  font-size: 18px;
+  padding: 5px;
+  font-family: "Hubballi", cursive;
+  margin-top: 5px;
+}
+form {
+  margin: 20px 0;
+}
+.space {
+  padding: 5px 10px;
+  width: 230px;
+  border-radius: 3px;
+  margin: 8px 0;
+  font-family: sans-serif;
+}
+.submit {
+  margin: 20px 0;
+  padding: 6px 15px;
+  border-radius: 10px;
+}
+.contant p {
+  font-family: sans-serif;
+  font-size: 12px;
+  margin: 0 5px;
+  color: red;
+}
+.blogContainer {
+  width: 80vw;
+  height: 100vh;
+  margin:auto;
+}
+.blogContainer h2 {
+  font-family: "Hubballi", cursive;
+  font-family: "Lora", serif;
+  margin: 15px 15px;
+}
+.writeBlog {
+  margin: 40px 15px;
+}
+.writeBlog p {
+  font-family: "Hubballi", cursive;
+  margin: 10px 10px;
+  font-size: 20px;
+}
+.writeBlog h3 {
+  font-family: "Hubballi", cursive;
+  font-size: 25px;
+}
+.aboutContainer {
+  width: 80vw;
+  height: 100vh;
+  margin: auto;
+}
+.aboutMe h1 {
+  font-family: "Hubballi", cursive;
+  font-family: "Lora", serif;
+  margin: 15px 0;
+}
+.aboutMe p {
+  font-family: "Hubballi", cursive;
+  margin: 15px 5px;
+  font-size: 20px;
+}
+
+.skills h2 , .projects h2 , .keySkills h2{
+  font-family: "Hubballi", cursive;
+  font-family: "Lora", serif;
+  font-size: 25px;
+}
+.java {
+  width: 300px;
+  height: 20px;
+  background-color: rgb(190, 181, 181);
+  border: 2px solid black;
+  margin: 10px 0;
+
+}
+.scaleJava {
+  width: 200px;
+  height: 15px;
+  background-color: black;
+  padding: 3px 0;
+}
+.html {
+    width: 300px;
+    height: 20px;
+    background-color: rgb(190, 181, 181);
+    border: 2px solid black;
+    margin: 10px 0;
+  }
+  .scaleHtml {
+    width: 275px;
+    height: 15px;
+    background-color: black;
+    padding: 2px 0;
+  }
+  .css {
+    width: 300px;
+    height: 20px;
+    background-color: rgb(190, 181, 181);
+    border: 2px solid black;
+    margin: 10px 0;
+  }
+  .scaleCss {
+    width: 250px;
+    height: 15px;
+    background-color: black;
+    padding: 3px 0;
+  }
+  .javaScript {
+    width: 300px;
+    height: 20px;
+    background-color: rgb(190, 181, 181);
+    border: 2px solid black;
+    margin: 10px 0;
+  }
+  .scaleJavaScript {
+    width: 150px;
+    height: 15px;
+    background-color: black;
+    padding: 3px 0;
+  }
+  .JAVA , .HTML , .CSS , .JAVASCRIPT 
+  {
+      margin: 20px 0px;
+  }
+  .projects h3
+  {
+    font-family: "Hubballi", cursive; 
+    font-size: 25px;
+    margin: 10px 0;
+  }
+  .projects ul li 
+  {
+    font-family: "Hubballi", cursive;
+    margin: 10px 25px;
+  } 
+  .projectList
+  {
+    margin: 20px 10px;
+  }
+  .keySkills ul
+  {
+    margin: 15px 35px;
+  }
+  .keySkills ul li
+  {
+    margin: 15px 0;
+    font-family: "Lora", serif;
+    font-weight: 500;
+  }
+  .hamBurger
+  {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+  }
+  .cross
+  {
+    margin-left: 110px;
+  }
+  @media (max-width : 940px) {
+    /* .sidebar
+    {
+      transform:translate(-140px , 0px);
+    } */
+  }
+  @media (max-width : 1000px)
+  {
+    .main
+    {
+      width: 100vw;
+    }
+    .cross
+    {
+      position: relative;
+      right: 50px;
+    }
+    .name,.salutation,.about,.detail,.button
+    {
+      text-align: center;
+    }
+    .salutation
+    {
+      font-size: 1em;
+      font-family: "Courier New", Courier, monospace;
+    }
+    .name
+    {
+      font-size: 2.5em;
+    }
+    .about
+    {
+      font-size: 1.2em;
+    }
+    .detail
+    {
+      font-size: 1em;
+    }
+    .sidebar
+    {
+      width: 25vw;  
+    }
+    .sidebarGo
+    {
+      transform:translate(-270px , 0px);
+    }
+  }
+  @media (max-width : 1200px)
+  {
+    .devPic
+    {
+      display: none;
+    }
+  }
+  
